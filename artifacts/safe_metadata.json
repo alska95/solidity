@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.5.2+commit.1df8f40c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "checkMyBalance",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "received",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lecture/lecture/fallback.sol": "safe"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lecture/lecture/fallback.sol": {
+			"keccak256": "0xea00272dd829253be2da3c3be3948c2051a7f1b2561bc58d721ecc8cd2feef1d",
+			"urls": [
+				"bzzr://5b3330c6b5d4230b890d4120dd3a88fcb4678cf35994772bfbb502ad9c41a2dd"
+			]
+		}
+	},
+	"version": 1
+}
