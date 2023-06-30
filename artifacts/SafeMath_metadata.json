@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Users/user/Desktop/git/solidity/library.sol": "SafeMath"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Users/user/Desktop/git/solidity/library.sol": {
+			"keccak256": "0xc0c89829a8fdb0daa64077671ce736b97bd4f1bb884300ae8de23b818a73e251",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2a1551171dc06bad49cfe592db7aa4fab06a8a11b200a139549baf4ea52acdbc",
+				"dweb:/ipfs/QmZmXRbGbGVhpcwBtCcd2nzyR2tuzemnMukKSruqNdiQUB"
+			]
+		}
+	},
+	"version": 1
+}
